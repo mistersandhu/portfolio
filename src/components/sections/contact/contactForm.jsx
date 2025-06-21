@@ -25,6 +25,14 @@ const ContactForm = () => {
                                     <div className="help-block with-errors"></div>
                                 </div>
                             </div>
+                            <div className="col-md-6">
+                                <div className="form-group">
+                                    <label htmlFor="name">Whatsapp Number</label>
+                                    <input type="number" id="name" name="name" className="form-control" placeholder="+1927492720472" required data-error="Please enter your Name" />
+                                    <label htmlFor="name" className="for-icon"><i className="far fa-user"></i></label>
+                                    <div className="help-block with-errors"></div>
+                                </div>
+                            </div>
                             <div className="col-md-12">
                                 <div className="form-group">
                                     <label htmlFor="message">Your Message</label>

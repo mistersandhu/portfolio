@@ -21,10 +21,10 @@ const Summery = () => {
                         <SlideUp>
                             <div className="about-content-part">
                                 <h2>
-                                    I’m Bentos Walker, a product designer.
+                                    I’m Muneeb Sandhu, a Frontend Developer.
                                 </h2>
-                                <p>I am a San francisco-based product designer with a focus on web design, illustration, a visual development. I have a diverse range of experience having worked across various fields and industries.</p>
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+                                <p>I am a Pakistan-based Frontend Web & App Developer with a passion for creativity, scalability, and visual development. With years of hands-on experience, I have honed my ability to build responsive, high-performance digital solutions that not only look stunning but also perform seamlessly across all devices and platforms.</p>
+                                <p>Throughout my career, I have worked across a wide variety of industries and fields, including e-commerce, hospitality, finance, and education, which has given me a deep understanding of different business needs and user expectations. This diverse experience has helped me develop a holistic approach to development, combining both technical expertise and creative design thinking to deliver web and app solutions that are both functional and aesthetically pleasing.</p>
                                 <div className="hero-btns">
                                     <a href="contact.html" className="theme-btn">Get In touch<i> <RiMailSendLine size={16} /> </i></a>
                                 </div>

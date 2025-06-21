@@ -37,7 +37,7 @@ const Hero = () => {
                                     I’m Muneeb Sandhu.
                                 </h2>
                                 <h3>
-                                    Frontend web and app developer specializing in modern, scalable, and animated designs. With extensive experience in React, Next.js, Flutter, and Canva.
+                                    Frontend Web and App developer specializing in modern, scalable, and animated designs. With extensive experience in React, Next.js, Flutter, and Canva.
                                 </h3>
                                 <div className="adress-field">
                                     <ul>

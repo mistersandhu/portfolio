@@ -15,12 +15,13 @@ const Pricing = () => {
                                 <div className="section-title text-center">
                                     <p>Pricing</p>
                                     <h2>Flexible Pricing Plan</h2>
+                                    <h6>Rates may vary based on task complexity and urgency</h6>
                                 </div>
                             </SlideUp>
                         </div>
                     </div>
                     <div className="row justify-content-center">
-                        {priceData.map(({ features, id, price, sortInfo, title }) => <Card key={id} id={id} features={features} price={price} sortInfo={sortInfo} title={title} />)}
+                        {priceData.map(({ features, id, price, sortInfo, title, min }) => <Card key={id} id={id} features={features} price={price} duration={min} sortInfo={sortInfo} title={title}/>)}
                     </div>
                 </div>
             </div>
@@ -31,7 +32,7 @@ const Pricing = () => {
 export default Pricing
 
 
-const Card = ({id, title, price, sortInfo, features }) => {
+const Card = ({id, title, price, min, sortInfo, features }) => {
     return (
         <div className="col-lg-4 col-md-6">
             <SlideUp delay={id}>
@@ -40,6 +41,7 @@ const Card = ({id, title, price, sortInfo, features }) => {
                         <h4 className="title">{title}</h4>
                         <p className="save-percent" dangerouslySetInnerHTML={{ __html: sortInfo }} />
                         <span className="price">{price}</span>
+                        <h3>{min}</h3>
                     </div>
                     <div className="pricing-details">
                         <ul>

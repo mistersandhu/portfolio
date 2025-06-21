@@ -1,4 +1,4 @@
-import { RiMailLine, RiMapPinLine, RiPhoneLine } from '@remixicon/react'
+import { RiMailLine, RiMapPinLine, RiPhoneLine, RiWhatsappLine } from '@remixicon/react'
 import React from 'react'
 import SlideUp from '../../../utlits/animations/slideUp'
 
@@ -12,8 +12,8 @@ const ContactOption = () => {
                             <div className="contact-icon">
                                 <i> <RiMapPinLine size={20} /></i>
                             </div>
-                            <h2>our office:</h2>
-                            <p>Jurain,Dhaka Bangladesh</p>
+                            <h2>My office:</h2>
+                            <p>Model Town, Lahore Pakistan</p>
                         </div>
                     </SlideUp>
                     <SlideUp delay={3}>
@@ -22,7 +22,18 @@ const ContactOption = () => {
                                 <i> <RiPhoneLine size={20} /></i>
                             </div>
                             <h2>contact number:</h2>
-                            <p>+1234321321</p>
+                            <p>+92 316 724 5202</p>
+                            
+                        </div>
+                    </SlideUp>
+                    <SlideUp delay={3}>
+                        <div className="single-contact wow fadeInUp" data-wow-delay=".4s">
+                            <div className="contact-icon">
+                                <i> <RiWhatsappLine size={20} /></i>
+                            </div>
+                            <h2>whatsapp number:</h2>
+                            <p>PK - +92 316 724 5202</p>
+                            <p>BH - +973 3503 2457</p>
                         </div>
                     </SlideUp>
                     <SlideUp delay={4}>
@@ -31,7 +42,7 @@ const ContactOption = () => {
                                 <i> <RiMailLine size={20} /></i>
                             </div>
                             <h2>Email us:</h2>
-                            <p>websitename@mail.com</p>
+                            <p>themister.muneeb@gmail.com</p>
                         </div>
                     </SlideUp>
                 </div>
